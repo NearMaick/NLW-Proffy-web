@@ -1,6 +1,4 @@
-:root {
-  font-size: 60%;
-
+:root {  
   --color-background: #F0F0F7;
   --color-primary-lighter: #9871F5;
   --color-primary-light: #916BEA;
@@ -19,11 +17,14 @@
   --color-button-text: #FFFFFF;
   --color-box-base: #FFFFFF;
   --color-box-footer: #FAFAFC;
+  
+  font-size: 60%;
 }
 
 * {
   margin: 0;
   padding: 0;
+  outline: 0;
   box-sizing: border-box;
 }
 
@@ -43,6 +44,7 @@ body {
 
 body, input, button, textarea {
   font: 500 1.6rem Poppins;
+  color: var(--color-text-base);
 }
 
 .container {
