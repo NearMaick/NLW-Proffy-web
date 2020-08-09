@@ -5,6 +5,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To run this app it is necessary to install and run [this api](https://github.com/NearMaick/NLW-Proffy-server).
+
 ## Available Scripts
 
 It's necessary to run: 
